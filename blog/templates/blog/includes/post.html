@@ -1,0 +1,14 @@
+     {% load static %}
+     <li>
+            <article class ="post">
+                <a href="{% url "post-detail" post.slug %}">
+                    <img src="{% static "blog/images/" | add:post.image %}" alt="{{post.title}}">
+                </a>
+                <div class="post_content">
+                    <h3>{{post.title}}</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore,
+                         rem numquam pariatur a perspiciatis quasi voluptatem hic veniam suscipit vel 
+                        aperiam qui animi corrupti possimus. Dicta doloremque commodi eaque voluptas?</p>
+                </div>
+            </article>
+        </li>

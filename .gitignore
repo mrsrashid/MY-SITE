@@ -1,0 +1,31 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+*.sqlite3
+db.sqlite3
+media/
+# IDE / Editor stuff
+*.swp
+*.swo
+*.idea/
+*.DS_Store
+
+# Coverage / Testing
+.coverage
+htmlcov/
+.tox/
+.pytest_cache
+# VS Code settings
+.vscode/
