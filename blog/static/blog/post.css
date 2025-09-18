@@ -1,0 +1,35 @@
+/* posts.css - post card styles */
+
+.post {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 1rem 0;
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.post:hover {
+  transform: translateY(-3px);
+}
+
+.post img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.post_content {
+  padding: 1rem;
+}
+
+.post_content h3 {
+  margin-top: 0;
+  font-size: 1.25rem;
+}
+
+.post_content p {
+  color: #666;
+  font-size: 0.9rem;
+}

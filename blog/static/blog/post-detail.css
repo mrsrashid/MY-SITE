@@ -1,0 +1,23 @@
+/* post-detail.css */
+
+#summary {
+  background: #f9f9f9;
+  padding: 2rem;
+  border-bottom: 1px solid #ddd;
+}
+
+#summary h2 {
+  margin-top: 0;
+}
+
+#summary img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 1rem 0;
+}
+
+main {
+  padding: 2rem;
+  line-height: 1.6;
+  font-size: 1rem;
+}

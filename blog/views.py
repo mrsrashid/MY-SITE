@@ -79,7 +79,6 @@ def starting_page(request):
     })
 
 def post(request):
-    
    return render(request, "blog/all-posts.html",{
          "posts": all_posts
    })

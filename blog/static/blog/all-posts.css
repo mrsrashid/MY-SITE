@@ -1,0 +1,15 @@
+/* all-posts.css */
+
+#all-posts {
+  padding: 2rem;
+}
+
+#all-posts h2 {
+  margin-bottom: 1rem;
+}
+
+#all-posts ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}

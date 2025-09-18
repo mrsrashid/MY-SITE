@@ -1,0 +1,25 @@
+/* index.css - homepage */
+
+#welcome {
+  text-align: center;
+  padding: 2rem;
+  background: #eee;
+}
+
+#welcome img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#latest-post {
+  padding: 2rem;
+}
+
+#latest-post h2 {
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #ddd;
+  display: inline-block;
+  padding-bottom: 0.3rem;
+}
